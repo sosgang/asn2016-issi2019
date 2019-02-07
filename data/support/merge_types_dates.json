@@ -1,0 +1,29 @@
+{
+  "files": [
+    ["crossref", "data/support/crossref-types-dates.csv"],
+    ["dblp", "data/support/dblp-types-dates.csv"]
+  ],
+  "key": "doi",
+  "header": ["doi", "type", "date"],
+  "precedence": {
+    "type": {
+      "main": "dblp",
+      "exceptions": [
+        ["crossref", "report"],
+        ["crossref", "posted-content"],
+        ["crossref", "reference-entry"]
+      ]
+    },
+    "date": {
+      "main": "crossref",
+      "exceptions": []
+    }
+  },
+  "mapping": {
+    "type": {
+      "article": "journal-article",
+      "incollection": "book-chapter",
+      "inproceedings": "proceedings-article"
+    }
+  }
+}
