@@ -2,3 +2,4 @@ esiti/
 material/
 script/__pycache__/
 data-original/
+.DS_Store
