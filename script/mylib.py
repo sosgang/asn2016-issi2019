@@ -30,6 +30,12 @@ outTXT_NoWS_NoPageNum = 'output/TXT-NoWS-NoPageNum'
 outputTsv = 'output/DBLP-names-manualSubstitution.tsv'
 
 inputTsv = 'output/DBLP-names-manualSubstitution.edited.tsv'
+# TO DELETE
+authorsJsonOut = 'output/authorList.04.05.06.07.json'
+outBIB = "output/BIB"
+outputTSV_DBLP = 'output/doiCandidati.DBLP.tsv'
+outputTSV_CV = 'output/doiCandidati.CV.tsv'
+# TO DELETE
 authorsJsonOutDBLP = 'output/authorList.04.05.06.07.DBLP.json'
 authorsJsonOutDBLPandCV = 'output/authorList.04.05.06.07.DBLP.CV.json'
 authorsJsonOutDBLPandCV_mergedChecked = 'output/authorList.04.05.06.07.DBLP.CV.checkedMerged.json'
